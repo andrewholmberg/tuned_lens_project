@@ -1,0 +1,14 @@
+[project]
+name = "logit_lens"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["transformer-lens",
+                "datasets",
+                "matplotlib",
+                ]
+
+
+[tool.uv.sources]
+logit_lens = { workspace = true }
